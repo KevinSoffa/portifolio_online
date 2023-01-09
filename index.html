@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Kevin Soffa</title>
+</head>
+<body>
+    <main>
+        <header>
+            <div class="logo">
+              <a href="#home">
+                <img src="/img/logo.png" height="70em" alt="logo-kevin">
+              </a>
+            </div>
+            <div class="menu">
+                <nav class="nav-list">
+                    <a href="#home">Home</a>
+                    <a href="#projects">Projetos</a>
+                    <a href="#contact">Contato</a>
+                    <a href="#contact">Currículo</a>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Home -->
+        <section id="home">
+            <div class="home-info">
+                <h2>Olá, sou Kevin</h2>
+                <span class="home-position">Programador Python JR</span>
+                <span class="home-resume">
+                    Desenvolvedor Python,
+                    graduando em Análise e
+                    Desenvolvimento de Sistemas,
+                    técnico em desenvolvimento em
+                    programação em Python com
+                    frameworks; Django, Django Rest
+                    Framework, Flask, FastAPI, Pandas,
+                    Selenium. Conhecimento em
+                    JavaScript, React, HTML5 e CSS3.
+                    Utilização de GitHub e GitLab em
+                    versionamento de códigos.<br>
+                    Veja mais em meu GitHub: <a class="link-git" href="https://github.com/KevinSoffa" target="_blank">github.com/KevinSoffa</a>
+                </span>
+                <div style="display: inline_block"><br>
+                   <h2>Técnologias</h2>
+                   <img height="50em" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"/>
+                   <img height="50em" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" />
+                   <img height="50em" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" />
+                   <img height="50em" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" />
+                   <img height="50em" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg" />
+                   <img height="50em" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg" />
+                   <img height="50em" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original-wordmark.svg" />
+                   <br>
+                   <img height="50em" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" />
+                   <img height="50em" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"/>
+                   <img height="50em" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+                   <img height="50em" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
+                   <img height="50em" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
+                   <img height="50em" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" />
+                   <img height="50em" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+
+                </div>
+        
+                <button>
+                  <a href="#contact">Contate-me</a>
+                </button>
+              </div>
+              <div class="home-img">
+                <img src="./img/kevin.jpg" alt="Foto de perfil">
+              </div>
+        </section>
+
+        <!-- Home -->
+        <section id="projects">
+            <h2>Principais Projetos</h2>
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="project-img">
+                    <img src="./img/ksflix.png" alt="Foto de KS-Flix">
+                  </div>
+                  <div class="project-info">
+                    <h2>KS-Flix | Python Django</h2>
+                    <a class="link-git" href="https://github.com/KevinSoffa/KS_Flix">Repositório GitHub</a>
+                    <p>
+                        Projeto inspirado na Netflix. Onde o usuário cria sua
+                        conta e tem acesso a diversos vídeos e aulas.
+                    </p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="project-img">
+                    <img src="./img/api-carros.png" alt="Foto da API">
+                  </div>
+                  <div class="project-info">
+                    <h2>API-Carros | Python FastAPI e PostgreSQL</h2>
+                    <a class="link-git" href="https://github.com/KevinSoffa/API_Instrumentos">Repositório GitHub</a>
+                    <p>CRUD completo com conexão com Banco de Dados</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="project-img">
+                    <img  src="./img/python_financas.png" alt="Foto Análise de Dados">
+                  </div>
+                  <div class="project-info">
+                    <h2>Python Finanças | Python Pandas e Matplotlib</h2>
+                    <a class="link-git" href="https://github.com/KevinSoffa/Investimentos_ibov">Repositório GitHub</a>
+                    <p>
+                        Fazendo uma análise e comparação de uma 
+                        carteira de investimentos com os índices da IBOVESPA
+                    </p>
+                  </div>
+                </div>
+              </div>
+            
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </section>
+
+        <!--Contato-->
+          <section id="contact">
+            <h2>Contato</h2>
+            <a href="cv-kevinsoffa.pdf" download="CV-KevinSoffa" type="application/pdf">
+              <button class="cv-kevinsoffa">
+                Baixar Currículo Kevin Soffa
+              </button>
+            </a>
+            <div class="redes">
+              <a href="https://github.com/KevinSoffa" target="_blank">
+                <img height="100em" src="/img/git.png" alt="Github">
+              </a>
+              <a href="https://www.linkedin.com/in/kevin-soffa-da-silva-souza-2607b5212/" target="_blank">
+                <img height="80em" src="/img/in.png" alt="linkedin">
+              </a>
+              <a href="https://www.instagram.com/kevinsoffa/" target="_blank">
+                <img height="80em" src="/img/instagram.png" alt="instagram">
+              </a>
+              <a href="mailto: kevinsoffa@gmail.com" target="_blank">
+                <img height="73em" src="/img/gmail.png" alt="e-mail">
+              </a>
+          </div>
+          </section>
+        
+          <footer>
+            copyright © 2022 Kevin Soffa. Todos os direitos reservados
+          </footer>
+          </main>  
+        
+          <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+          <script src="script.js"></script>
+        </body>
+        </html>
+    </main>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
